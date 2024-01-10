@@ -1,0 +1,136 @@
+.wrapper {
+    max-width: 1240px;
+}
+
+.page__hello-acva {
+    margin: auto;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 310px;
+}
+
+.page__hello-acva img {
+    width: 85px;
+    height: 85px;
+}
+
+.hello-acva__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.hello-acva__title h1 {
+    color: #001018;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.hello-acva__title p {
+    color: #0f6a87;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.page__text {
+    margin-top: 24px;
+    height: 162px;
+    background: #b7e5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__text p {
+    color: #001018;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.page__why {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why__title {
+    color: #001018;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page__why ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    gap: 12px;
+}
+
+.page__why li {
+    list-style-type: none;
+    color: #001018;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.page__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.button__buy {
+    cursor: pointer;
+    width: 320px;
+    height: 54px;
+    border-radius: 5px;
+    background: #4f6b71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__buy:hover {
+    background: #2c4a5a;
+}
+
+.button__buy p {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+@media (min-width: 768px) {
+    .hello-acva__title h1 {
+        font-size: 25px;
+    }
+    .page__text p {
+        color: #001018;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .page__why ul {
+        width: 520px;
+    }
+}
